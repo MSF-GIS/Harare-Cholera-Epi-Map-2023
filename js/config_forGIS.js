@@ -90,8 +90,8 @@
 	                        class3_between  :   {value : [5, 20],      color : "rgb(254,153,41)"},
 	                        class4_between  :   {value : [20, 50],     color : "rgb(217,95,14)"},
 	                        class5_between  :   {value : [50, 100],    color : "rgb(184,82,12)"},
-							class6_between  :   {value : [100, 200],    color : "rgb(133,59,9)"},
-	                        class7_more     :   {value : 200,           color : "rgb(100,42,4)"}                   
+							class6_between  :   {value : [100, 300],    color : "rgb(133,59,9)"},
+	                        class7_more     :   {value : 300,           color : "rgb(100,42,4)"}                   
 	                    }
 	                },
 	                analysis_2 : {
@@ -109,8 +109,8 @@
 	                        class3_between  :   {value : [5, 20],      color : "rgb(254,153,41)"},
 	                        class4_between  :   {value : [20, 50],     color : "rgb(217,95,14)"},
 							class5_between  :   {value : [50, 100],    color : "rgb(184,82,12)"},
-	                        class6_between  :   {value : [100, 200],    color : "rgb(133,59,9)"},
-	                        class7_more     :   {value : 200,           color : "rgb(100,42,4)"}
+	                        class6_between  :   {value : [100, 300],    color : "rgb(133,59,9)"},
+	                        class7_more     :   {value : 300,           color : "rgb(100,42,4)"}
 	                    }
 	                }					
 				},
@@ -128,9 +128,9 @@
 				geoSources : {
 					polygons : {
 						// name (STRING) - Name of the layer as it is going to be displayed in the legend.
-		                name    : "Suburbs",
+		                name    : "Area name",
 		                // source (STRING) - Source of the layer's data.
-		                source  : "data/harare_a_230918.geojson",
+		                source  : "data/harare_a_2023.geojson",
 		                // format (STRING) - Set the format of the dataset. Can be either "TopoJSON", "GeoJSON" or "EsriJSON".
 		                format  : "GeoJSON",
 		                // geoCode (STRING) - Joined field ('p' code).
@@ -140,9 +140,9 @@
 		            },
 					points : {
 						// name (STRING) - Name of the layer as it is going to be displayed in the legend.
-		                name    : "Suburbs",
+		                name    : "Area name",
 		                // source (STRING) - Source of the layer's data.
-		                source  : "data/harare_p_230918.geojson",
+		                source  : "data/harare_p_2023.geojson",
 		                // format (STRING) - Set the format of the dataset.
 		                format  : "GeoJSON",
 		                // geoCode (STRING) - Joined field ('p' code).
@@ -171,7 +171,7 @@
 				// Define options for the cases analysis.
 	            casesStyle : {
 	            	// titleForLegend (STRING) - Name of the layer as it is going to be displayed in the legend.
-	                titleForLegend : "Cases (by Suburbs)",
+	                titleForLegend : "Cases (by Suburb area)",
 	                // fill (color : STRING) - RGBA string that contains the fill color for the circles.
 	                fill : {
 	                    color : "rgba(200,0,0,0.3)"
