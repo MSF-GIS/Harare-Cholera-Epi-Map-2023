@@ -12,7 +12,7 @@ REQUIRED: A summary of the intentions with which the data set was developed.</ab
     <keyword>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</keyword>
   </keywords>
   <links>
-    <link type="Local Area Network" size="" url="file://\\GVA129857-2009\D$\ICRC GIS DATA\PolyClinics GIS MappingSecond\Harare Surbubs\zimdistricts08_Clip.shp" description="" mimeType="" name="Shapefile" format=""/>
+    <link url="file://\\GVA129857-2009\D$\ICRC GIS DATA\PolyClinics GIS MappingSecond\Harare Surbubs\zimdistricts08_Clip.shp" format="" description="" name="Shapefile" type="Local Area Network" mimeType="" size=""/>
   </links>
   <fees></fees>
   <constraints type="Access">REQUIRED: Restrictions and legal prerequisites for accessing the data set.</constraints>
