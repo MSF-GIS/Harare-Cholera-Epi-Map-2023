@@ -232,7 +232,7 @@
 		        
 		        // THE THREE ATTRIBUTES BELOW ARE NOT IMPLEMENTED YET
 
-		        appDisclaimer : "The data presented is only for urban Harare and may be incomplete",
+		        appDisclaimer : "The data presented is only for Greater Harare districts and may be incomplete",
 		        // displayAppDisclaimer (BOOLEAN) - Hide or show app disclaimer.
 		        displayAppDisclaimer : true,
 		        // mapSettings (BOOLEAN) - Hide or show map settings.
@@ -264,14 +264,14 @@
 	        // Define text settings for charts layout (all param : STRING) - Title, legend, tooltip, etc... 
 	        chartsLayout : {
 	            cumulative : {
-	                title   : "Incidence Rate (x 1000)",
-	                legend  : "Incidence Rate (x 1000)",
+	                title   : "Incidence Rate (x 10000)",
+	                legend  : "Incidence Rate (x 10000)",
 	                axis    : "Rates",
 	                tooltip : "Incidence rate"
 	            },
 	            measure : {
-	                title   : "Weekly Incidence Rate (x 1000)",                
-	                legend  : "Weekly Incidence Rate (x 1000)",
+	                title   : "Weekly Incidence Rate (x 10000)",                
+	                legend  : "Weekly Incidence Rate (x 10000)",
 	                axis    : "Rates",
 	                tooltip : "Weekly Incidence Rate"                
 	            },
