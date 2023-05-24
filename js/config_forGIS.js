@@ -46,9 +46,9 @@
 	                    // cumulative (STRING) - Cumulative measure, sum the values for the given and the previous dimTime (cases : t1, t1 + t2, t1 + t2 + t3, ...).
 	                    cumulative : "CUMU_CASES",
 	                    // rate (STRING) - Field for the rate calculated with the "measure" value.
-	                    rate : "IR_1000",
+	                    rate : "IR_10000",
 	                    // cumulRate (STRING) - Field for the rate calculated with the "cumulative" value.
-	                    cumulRate : "CumuIR_1000"
+	                    cumulRate : "CumuIR_10000"
 	                }                
 				},
 				
@@ -79,7 +79,7 @@
 	                    config : {
 	                        name            :   "Weekly Incidence Rate (x 10000)",
 	                        abbreviation    :   "WIR",
-	                        fieldRate       :   "IR_1000",
+	                        fieldRate       :   "IR_10000",
 	                        fieldAbsolute   :   "CASES",
 	                        otherName       :   "Weekly Incidence Rate",
 	                        printName       :   "Weekly Incidence Rate (x 10000)"
@@ -97,7 +97,7 @@
 	                    config : {
 	                        name            :   "Cumulative Incidence Rate (x 10000)",
 	                        abbreviation    :   "CIR",
-	                        fieldRate       :   "CumuIR_1000",
+	                        fieldRate       :   "CumuIR_10000",
 	                        fieldAbsolute   :   "CUMU_CASES",
 	                        otherName       :   "Cumulative Incidence Rate",
 	                        printName       :   "Cumulative Incidence Rate (x 10000)"
