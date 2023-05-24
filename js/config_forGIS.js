@@ -89,9 +89,8 @@
 	                        class2_between  :   {value : [1, 5],       color : "rgb(254,217,142)"},
 	                        class3_between  :   {value : [5, 20],      color : "rgb(254,153,41)"},
 	                        class4_between  :   {value : [20, 50],     color : "rgb(217,95,14)"},
-	                        class5_between  :   {value : [50, 100],    color : "rgb(184,82,12)"},
-							class6_between  :   {value : [100, 300],    color : "rgb(133,59,9)"},
-	                        class7_more     :   {value : 300,           color : "rgb(100,42,4)"}                   
+	                        class5_between  :   {value : [50, 300],    color : "rgb(184,82,12)"},
+						    class6_more     :   {value : 300,           color : "rgb(133,59,9)"}                   
 	                    }
 	                },
 	                analysis_2 : {
@@ -108,9 +107,8 @@
 	                        class2_between  :   {value : [1, 5],       color : "rgb(254,217,142)"},
 	                        class3_between  :   {value : [5, 20],      color : "rgb(254,153,41)"},
 	                        class4_between  :   {value : [20, 50],     color : "rgb(217,95,14)"},
-							class5_between  :   {value : [50, 100],    color : "rgb(184,82,12)"},
-	                        class6_between  :   {value : [100, 300],    color : "rgb(133,59,9)"},
-	                        class7_more     :   {value : 300,           color : "rgb(100,42,4)"}
+							class5_between  :   {value : [50, 300],    color : "rgb(184,82,12)"},
+	                        class6_more     :   {value : 300,           color : "rgb(133,59,9)"}
 	                    }
 	                }					
 				},
