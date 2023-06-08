@@ -128,8 +128,8 @@ This map has been exported from MSF Map Centre on personal initiative. MSF GIS U
                 
                 doc.setFontSize(9).setFontStyle('normal').setTextColor(0,0,0);
                 PDFaddTextBloc([
-                    "Cases & rates : MSF",
-                    "Admin boundaries : OCHA"
+                    "Cases & rates : City of Harare and MSF",
+                    "Admin boundaries : City Of Harare"
                 ], 245, 140, 5); 
 
 //                doc.setFontSize(9).setFontStyle('normal').setTextColor(0,0,0);											
@@ -142,7 +142,7 @@ This map has been exported from MSF Map Centre on personal initiative. MSF GIS U
                 PDFaddTextBloc([
                     "Date of export : " + todayDDMMYYYY + ".",
                     "This map has been exported from MSF ",
-                    "Map Centre on personal initiative. ",
+                    "GISCentre on personal initiative. ",
                     "MSF GIS Unit is not responsible for the ",
                     "content and display."
                 ], 245, 168, 3);               

@@ -21,7 +21,7 @@
 				// epiDataset - Related to the delimiter-separated values dataset to be joined to the geometry.
 				epiDataset : {
 					// source (STRING) - Link to the epi data, can be remote or local.
-					source : "data/harare_230527.csv",
+					source : "data/harare_230606.csv",
 					// delimiter (STRING) - Defines the delimiter used in the dataset.
 					delimiter : ",",
 	                // remote (BOOLEAN) -  To be set as 'true' for online use. Set as 'false' to avoid CORS issues on local use.
@@ -210,15 +210,15 @@
 			// Define layout components (all param : STRING) - Title, descriptions, etc...
 		    layout : {
 		        // appTitle - Set the title of the webmap.
-		        appTitle : "ZIMBABWE - Harare 2023 Cholera Outbreak (As of May 27, 2023)",
+		        appTitle : "ZIMBABWE - Harare 2023 Cholera Outbreak (As of June 6, 2023)",
 		        // analysisSectionTitle - Section title for analysis selector.
 		        analysisSectionTitle : "Map analysis",
 		        // analysisDescription - Description below analysis title (Use HTML tags for formatting).
-		        analysisDescription : "<i>Choose the analysis you want to be shown on the map using the drop down-list below. The <b>weekly incidence rate</b> represents the ratio of new cases among the district's population for a given week. The <b>attack rate</b> represents the proportion of the week's cumulated cases in the district's population.</i>",
+		        analysisDescription : "<i>Choose the analysis you want to be shown on the map using the drop down-list below. The <b>weekly incidence rate</b> represents the ratio of new cases among the district's population for a given week. The <b>attack rate</b> represents the proportion of the week's cumulated cases in the area's population.</i>",
 		        // dimensionTitle - Title for the dimension used to filter the data with the slider.
 		        dimensionTitle : "Filter by week",
 		        // dimensionDescription - Description above the filter slider (Use HTML tags for formatting).
-		        dimensionDescription : "<i>Choose the week's data you want to be displayed on the map by moving this slider. It starts at week 36 as no case has been reported before that week.</i>",
+		        dimensionDescription : "<i>Choose the week's data you want to be displayed on the map by moving this slider. It starts at week 17 as no case has been reported before that week.</i>",
 		        // dimensionIndicator - Label that goes along with the filtering value.
 		        dimensionIndicator : "Epi-Week",
 		        // selectionTitle - Title for the feature selection.
