@@ -86,11 +86,11 @@
 	                    },
 	                    classes : {
 	                        class1_less     :   {value : 1,             color : "rgb(255,255,212)"},
-	                        class2_between  :   {value : [1, 5],       color : "rgb(254,217,142)"},
-	                        class3_between  :   {value : [5, 20],      color : "rgb(254,153,41)"},
-	                        class4_between  :   {value : [20, 50],     color : "rgb(217,95,14)"},
-	                        class5_between  :   {value : [50, 300],    color : "rgb(184,82,12)"},
-						    class6_more     :   {value : 300,           color : "rgb(133,59,9)"}                   
+	                        class2_between  :   {value : [1, 10],       color : "rgb(254,217,142)"},
+	                        class3_between  :   {value : [10, 50],      color : "rgb(254,153,41)"},
+	                        class4_between  :   {value : [50, 100],     color : "rgb(217,95,14)"},
+	                        class5_between  :   {value : [100, 500],    color : "rgb(184,82,12)"},
+						    class6_more     :   {value : 500,           color : "rgb(133,59,9)"}                   
 	                    }
 	                },
 	                analysis_2 : {
@@ -104,11 +104,11 @@
 	                    },
 	                    classes : {
 	                        class1_less     :   {value : 1,             color : "rgb(255,255,212)"},
-	                        class2_between  :   {value : [1, 5],       color : "rgb(254,217,142)"},
-	                        class3_between  :   {value : [5, 20],      color : "rgb(254,153,41)"},
-	                        class4_between  :   {value : [20, 50],     color : "rgb(217,95,14)"},
-							class5_between  :   {value : [50, 300],    color : "rgb(184,82,12)"},
-	                        class6_more     :   {value : 300,           color : "rgb(133,59,9)"}
+	                        class2_between  :   {value : [1, 10],       color : "rgb(254,217,142)"},
+	                        class3_between  :   {value : [10, 50],      color : "rgb(254,153,41)"},
+	                        class4_between  :   {value : [50, 100],     color : "rgb(217,95,14)"},
+							class5_between  :   {value : [100, 500],    color : "rgb(184,82,12)"},
+	                        class6_more     :   {value : 500,           color : "rgb(133,59,9)"}
 	                    }
 	                }					
 				},
@@ -210,7 +210,7 @@
 			// Define layout components (all param : STRING) - Title, descriptions, etc...
 		    layout : {
 		        // appTitle - Set the title of the webmap.
-		        appTitle : "ZIMBABWE - Harare 2023 Cholera Outbreak (As of June 6, 2023)",
+		        appTitle : "ZIMBABWE - Harare 2023 Cholera Outbreak (As of June 26, 2023)",
 		        // analysisSectionTitle - Section title for analysis selector.
 		        analysisSectionTitle : "Map analysis",
 		        // analysisDescription - Description below analysis title (Use HTML tags for formatting).
